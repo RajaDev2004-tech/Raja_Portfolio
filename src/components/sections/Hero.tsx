@@ -21,7 +21,7 @@ export function Hero() {
 
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-          {/* Profile Image */}
+          {/* Profile */}
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -30,7 +30,9 @@ export function Hero() {
           >
             <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full gradient-bg p-1 glow">
               <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
-                <span className="text-6xl lg:text-7xl font-display font-bold gradient-text">R</span>
+                <span className="text-6xl lg:text-7xl font-display font-bold gradient-text">
+                  R
+                </span>
               </div>
             </div>
             {/* Floating elements */}
